@@ -1,0 +1,181 @@
+.flex-container{
+    display: flex;
+}
+
+  .left {
+    position: relative; /* Make the container a positioning context */
+    width: 1178px; /* Set the width of the container */
+    height: 1000px; /* Set the height of the container */
+    background: url('Bild1.jpg') no-repeat center center;
+    background-size: cover; /* Make the image cover the container */
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+
+/* Style the navigation menu */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 0;   
+}
+
+/* Style the menu container with a background color */
+.menu {
+    padding: 10px; /* Add padding to create spacing around the menu */
+}
+
+/* Style the list items within the menu */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    transition: color 0.3s; /* Add a smooth color transition on hover */
+    color: #fff; /* Set the default font color to white */
+}
+
+.menu a:hover {
+    color: rgb(243, 137, 155); /* Set the font color to a different color on hover (e.g., pink) */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    transition: color 0.4s;
+}
+
+.right img {
+    width: 140px;
+    margin-top: 220px;
+    margin-left: 280px;
+}
+
+.right {
+    margin-right: -22px;
+    margin-top: -20px;
+    width: 39%;
+    background-color: rgb(255, 255, 255);   
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.styled-button {
+    background-color: #30d8b3; 
+    color: #fff; 
+    border: none; 
+    padding: 13px 60px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 285px;
+    margin-top: 40px;
+    transition: opacity 0.4s;
+}
+
+.styled-button:hover {
+    opacity: 0.8; /* Change the opacity on hover (0.8 = 80% opacity) */
+}
+
+main {
+    height: 1000px; /* Set the desired height */
+    width: 80%; /* Set the desired width */
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu > li {
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  
+  .products:hover .sub-menu {
+    display: block;
+  }
+   
+   /* About and Contact css*/
+
+  .about-p {
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 90%;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  .styled-image-about {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block; /* Removes any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    position: relative;
+    top: -80px;
+    left: 10px;
+
+}
+
+.styled-button-about {
+    background-color: #30d8b3; 
+    color: #fff; 
+    border: none; 
+    padding: 13px 60px; 
+    border-radius: 3px; 
+    cursor: pointer; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-left: 285px;
+    margin-top: 70px;
+    transition: opacity 0.4s;
+}
+.styled-button-about:hover {
+    opacity: 0.8; /* Change the opacity on hover (0.8 = 80% opacity) */
+}
+ 
+h1.about-us {
+    font-size: 36px; /* Example font size */
+    color: rgb(243, 137, 155);
+    margin: 20px 0; /* Example margin */
+    margin-top: 100px;
+    font-weight: bold; /* Example font weight */
+    /* Add any other styles you want for this specific heading */
+}
+  
+.styled-image-contact {
+    max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+    display: block; /* Removes any default inline spacing */
+    margin: 0 auto; /* Center the image horizontally within its container */
+    position: relative;
+    top: -150px;
+    left: 10px;
+}
+
